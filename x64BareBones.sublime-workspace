@@ -1,0 +1,783 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"setpa",
+				"set1GiBPageAddress(void *address)	PageTableEntry &"
+			],
+			[
+				"pagedirectory",
+				"pageDirectoryTable	PageTableEntry *"
+			],
+			[
+				"pagedirec",
+				"pageDirectoryTable	PageTableEntry *"
+			],
+			[
+				"PageEntry",
+				"PageTableEntry	struct"
+			],
+			[
+				"getp",
+				"getPageDirectoryPointerTableEntry(void *virtualAddress)	uint16_t"
+			],
+			[
+				"p",
+				"PageSize	const uint64_t"
+			],
+			[
+				"set",
+				"set4KiBPageAddress(void *address)	PageTableEntry &"
+			],
+			[
+				"pagedirector",
+				"pageDirectoryPointerTable	void *"
+			],
+			[
+				"pagedre",
+				"pageDirectoryPointerTable	void *"
+			],
+			[
+				"uint",
+				"uint32_t	typedef"
+			],
+			[
+				"getP",
+				"getPDPTE(void *physicalAddress)	uint16_t"
+			],
+			[
+				"setadd",
+				"set4KiBPageAddress(void *address)	PageTableEntry &"
+			],
+			[
+				"process",
+				"processSize	uint32_t"
+			],
+			[
+				"P",
+				"PageSize	const uint64_t"
+			],
+			[
+				"end",
+				"endOfKernelsBinary	uint8_t"
+			],
+			[
+				"H",
+				"h"
+			],
+			[
+				"ASM",
+				"ASMOBJECTS"
+			],
+			[
+				"Kernelo",
+				"KernelObject<typename T>	class"
+			],
+			[
+				"li",
+				"LIBGCC"
+			],
+			[
+				"en",
+				"entryPoint	void *"
+			],
+			[
+				"userstack",
+				"userStackPage	void *"
+			],
+			[
+				"KernelO",
+				"KernelObject<typename T>	class"
+			],
+			[
+				"mask",
+				"maskPIC2	uint8_t"
+			],
+			[
+				"icw",
+				"ICW1ICW4	const uint8_t"
+			],
+			[
+				"PIC2Data",
+				"PIC22Data	const uint8_t"
+			],
+			[
+				"PIC2",
+				"PIC2Command	const uint8_t"
+			],
+			[
+				"Interrpt",
+				"InterruptHandler"
+			],
+			[
+				"segmen",
+				"segmentSelector"
+			],
+			[
+				"interr",
+				"InterruptHandler"
+			],
+			[
+				"high",
+				"highBits"
+			],
+			[
+				"res",
+				"reservedField1"
+			],
+			[
+				"reser",
+				"reservedField0"
+			],
+			[
+				"Kernelobj",
+				"KernelObject2"
+			],
+			[
+				"kernelobjec",
+				"KernelObject2"
+			],
+			[
+				"read",
+				"readCR3"
+			],
+			[
+				"allocators",
+				"allocators"
+			],
+			[
+				"allocato",
+				"allocatorCount"
+			],
+			[
+				"geta",
+				"getAllocatorImpl"
+			],
+			[
+				"Dic",
+				"DickheadBase"
+			],
+			[
+				"dello",
+				"dealloc"
+			],
+			[
+				"chunkall",
+				"chunkAllocator"
+			],
+			[
+				"totalall",
+				"totalAllocs"
+			],
+			[
+				"objects",
+				"objectsPerBlock"
+			],
+			[
+				"objec",
+				"MinObjectsPerBlock"
+			],
+			[
+				"obj",
+				"objectCount"
+			],
+			[
+				"remove",
+				"removeNode"
+			],
+			[
+				"tree",
+				"printTree"
+			],
+			[
+				"object",
+				"objectsPerBlock"
+			],
+			[
+				"chunka",
+				"chunkA"
+			],
+			[
+				"chunk",
+				"chunkB"
+			],
+			[
+				"Redbl",
+				"RedBlackTreeTest"
+			],
+			[
+				"Pageall",
+				"PageAllocatorTest"
+			],
+			[
+				"random",
+				"randomizeTestVector"
+			],
+			[
+				"RedBl",
+				"RedBlackTree"
+			],
+			[
+				"Redblacktre",
+				"RedBlackTreeVerifier"
+			],
+			[
+				"ChunkAllo",
+				"ChunkAllocatorTest"
+			],
+			[
+				"inp",
+				"inputStream"
+			],
+			[
+				"getcom",
+				"getCommandHelp"
+			],
+			[
+				"b",
+				"BaseShell"
+			],
+			[
+				"Command",
+				"CommandArguments"
+			],
+			[
+				"managedMemor",
+				"managedMemoryInPages"
+			],
+			[
+				"mal",
+				"mallocFreeStress"
+			],
+			[
+				"removeve",
+				"removeVector"
+			],
+			[
+				"add",
+				"addVector"
+			],
+			[
+				"Kernel",
+				"KernelObject1"
+			],
+			[
+				"Ch",
+				"ChildClassA"
+			],
+			[
+				"Red",
+				"RedBlackTreeNode"
+			],
+			[
+				"REd",
+				"RedBlackTreeNode"
+			],
+			[
+				"requestedpa",
+				"requestedPageCount"
+			],
+			[
+				"allocat",
+				"allocatorCount"
+			],
+			[
+				"new",
+				"newline"
+			],
+			[
+				"RBTB",
+				"RBTBlack"
+			],
+			[
+				"RBTBla",
+				"RBTBlack"
+			],
+			[
+				"black",
+				"blackCount"
+			],
+			[
+				"rightblack",
+				"rightBlackCount"
+			],
+			[
+				"rightblac",
+				"rightBlackCount"
+			],
+			[
+				"Redblac",
+				"RedBlackTree"
+			],
+			[
+				"RedBlackTreeNode",
+				"RedBlackTreeNode"
+			],
+			[
+				"RedBlackTreeNodeIMpl",
+				"RedBlackTreeNodeImpl"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Mandar copia del telegrama renuncia\nSO Para la prox: Capitulo 3 Minix - Tanenbaum.\nArq: Boot de Pure64 para el Lunes.\nTerminar fase 2 Nightmare Rider\nContactar ortodoncista\nTerminar Dox\nTerminar trámites en el ITBA\nCrema para el pelo\nClean up place\nEntradas Opeth\n",
+			"settings":
+			{
+				"buffer_size": 264,
+				"line_ending": "Unix",
+				"name": "Mandar copia del telegrama renuncia"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ArkanRow/Downloads/mtask.20.03/src/drivers/ide.c",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/MyClass2Class.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/TestAssemblyNamespace.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/Child2Namespace.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/MyClassClass.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/MyClass4Class.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/Child1Namespace.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/NestedTestNamespace.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/DoxRootNamespace.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/SampleClassClass.md",
+		"/Users/ArkanRow/Rol/Adventures/Grupo de Jano/Notas.rtf",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/FactoriesNamespace.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/CallRuleClass.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/PropertyPointFactoryClass.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/InjectionPointsNamespace.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/MethodPointClass.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/PropertyPointClass.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/ValueRuleClass.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/FPNamespace.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/MethodPointFactoryClass.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/Tuple`2Class.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/HighOrderClass.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/ConstructionPointClass.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/FieldPointClass.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/FieldPointFactoryClass.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/InjectionMapLoaderClass.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/RulesNamespace.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/SyrNamespace.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/InjectAttributeClass.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/SingletonClass.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/BaseInjectorClass.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/InjectorClass.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/ClassRuleClass.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/NamedAttributeClass.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/ConstructionPointFactoryClass.md",
+		"/Users/ArkanRow/Projects/C#/SyrWiki/Home.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/ExtractDoxMetadata/bin/Debug/MyDelegateClass.md",
+		"/Users/ArkanRow/Projects/C#/Dox/Dox/GenDox/DefaultTemplates/NamespaceTemplate.st",
+		"/Applications/League of Legends.app/Contents/LoL/RADS/projects/lol_air_client_config_la2/releases/0.0.0.10/deploy/lol.properties",
+		"/Users/ArkanRow/Projects/C#/Syr/License.txt",
+		"/Users/ArkanRow/Notas de cuentas",
+		"/Users/ArkanRow/Notes",
+		"/Users/ArkanRow/Alephia Network",
+		"/Users/ArkanRow/Downloads/JSBSim-1.0/configure",
+		"/Users/ArkanRow/Tasks",
+		"/Users/ArkanRow/Diario de Row el Cosmófago.txt",
+		"/Users/ArkanRow/Projects/Unity/Shooter/Assembly-CSharp-vs.csproj",
+		"/Users/ArkanRow/Projects/Unity/Summon/Summon-csharp.sln",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/Log/Log.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/PageTableEntry.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/PagingBootstrap.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/VirtualHeap.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/VirtualHeap.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/PagingBootstrap.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/Wyrm.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/KernelAddressSpace.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/KernelAddressSpace.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/MemoryManager/AllocatorSelector.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/MemoryManager/ChunkAllocator.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/MemoryManager/PageAllocator.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/MemoryManager/MemoryMap.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/Makefile.inc",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/PayloadUnpacker.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/StandardLibrary/stdlib.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/StandardLibrary/cstddef",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/CPU/cpu.asm",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/Version.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/Wyrm.ld",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/Makefile",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/PagingUtility.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/Loader.asm",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/StandardLibrary/mathutil.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/StandardLibrary/mathutil.c",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/PageTableEntry.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/PagingUtility.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/CPU/cpu.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/Makefile",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/HeapVirtualMemoryLayout.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/HeapVirtualMemoryLayout.h",
+		"/Users/ArkanRow/Library/Application Support/Sublime Text 2/Packages/SublimeClang/clang/include/stdint.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/MemoryManager/PageAllocator.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/StandardLibrary/string.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/VirtualAddressAllocator.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/VirtualAddressAllocator.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/Mapper.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/FixedVirtualMemoryLayout.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/Mapping.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/Mapping.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/VirtualMemoryManager.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/Scheduler/Process.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/Collections/RedBlackTreeNode.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/Collections/BitArray.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/DebugLibrary/Debug.asm",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/Collections/BitArray.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/VirtualMemoryManager/PageEntry.cpp",
+		"/Users/ArkanRow/Gessell checklist de Row",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Userland/InitialProcess.c",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Image/Makefile",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/MemoryManager/KernelObject.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/ProcessLoader.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/ProcessLoader.cpp",
+		"/Users/ArkanRow/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Toolchain/WyrmKernelPacker/WyrmKernelPacker.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/Log/Makefile",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Bootloader/Pure64/src/pure64.asm",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/Scheduler/Scheduler.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/Shell/BaseShell.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/Fail",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/Log/Log.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/DebugLibrary/md5.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Bootloader/Pure64/src/bootsectors/bmfs_mbr.asm",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/CPU/Makefile",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/DebugLibrary/Makefile",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/Collections/Makefile",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Userland/InitialProcess.ld",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Userland/Makefile.inc",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Userland/md5sum/md5.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Userland/md5sum/md5.c",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/StandardLibrary/stdlib.c",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Userland/Makefile",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Toolchain/InitialImagePacker/WyrmKernelPacker.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Toolchain/InitialImagePacker/Makefile",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Toolchain/InitialImagePacker/InitialImagePacker.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/CPU/irqHandlers.h",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/CPU/irqHandlers.asm",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/CPU/exceptions.asm",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/Log/WyrmLog.cpp",
+		"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel/Scheduler/ProcessWithStack.h"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/ArkanRow/Projects/C-C++/Wyrm/",
+			"/Users/ArkanRow/Projects/C-C++/Wyrm/Userland/md5sum",
+			"/Users/ArkanRow/Projects/C-C++/Wyrm/",
+			"/Users/ArkanRow/Projects/C-C++/Wyrm/Bootloader/Pure64",
+			"/Users/ArkanRow/Projects/C-C++/Wyrm/Kernel",
+			"/Users/ArkanRow/Projects/C-C++/Wyrm/",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"m_Name: WindowsOSX",
+			"m_Name: ",
+			"so what",
+			"m_Name: ",
+			"download",
+			"cvs",
+			"ac_config_files",
+			"gear",
+			"gear+",
+			"gear",
+			"NULL",
+			"initializeKernelBinary",
+			"repeatA",
+			"setPresent",
+			"PageTableEntry::",
+			"MEMORYMANAGER",
+			"tableSize",
+			"actualSize",
+			"OBJECTS",
+			"SOURCES",
+			"rsp",
+			" ss",
+			"ss",
+			"PIC_remap",
+			"clearBSS",
+			"current",
+			"(0) Magic breakpoint\n",
+			"bx, bx",
+			"MD5_u32plus",
+			"MD5_CTX",
+			"MD5",
+			"copy",
+			"copy_",
+			"clear",
+			"jmp",
+			"break",
+			"WGFAGH",
+			"WGFAG",
+			"segment",
+			"fs",
+			"mem",
+			"memc",
+			"str",
+			"new",
+			"switchKernelToUser",
+			"io_wait",
+			"pushState",
+			"+",
+			"buf",
+			"xchg",
+			"xchg bx,",
+			"breakpo",
+			"\"C\"",
+			"extern",
+			"XCH",
+			"xchg",
+			"[",
+			"50000",
+			"100000",
+			"1000000",
+			"8000",
+			"A20",
+			"a20",
+			"halt",
+			"4FFFF",
+			"50000",
+			"times",
+			"readsector",
+			"incr_es",
+			"readsector",
+			"DriveNumber",
+			"26K",
+			"movsq",
+			"26",
+			"buf",
+			"MaxAllocatorCount",
+			"kernelStackSize",
+			"Minor",
+			"breakpoint",
+			"getNodeFromChunk",
+			"rodata*",
+			"WGAT",
+			"getNodeFromChunk",
+			"size",
+			"intComp",
+			"newAllocator",
+			"managedMemoryInPages",
+			"allocators",
+			"map.",
+			"allocated",
+			"debug",
+			"MaxAllocatorCount",
+			"8000",
+			"clarit",
+			"requested",
+			"memoryMapEntryComparer",
+			"originalMemoryMap",
+			"\n		",
+			"newline",
+			"\n	",
+			"LOADERSRC",
+			"pml",
+			"configure",
+			"chr",
+			"main",
+			"video[",
+			"video",
+			"getAlloc",
+			"maxall",
+			"KernelObj",
+			"Kernel",
+			"getAllocator",
+			"getAllocatorImpl",
+			"instance",
+			"MaxAllocatorCount",
+			"allocatorSelector",
+			"new",
+			"createN",
+			"create",
+			"pageAllocator",
+			"managedPageCount",
+			"managedSize",
+			"totalSize",
+			"chunkSize",
+			"verifier",
+			"swapnodes",
+			"merge",
+			"canMerge"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"m_Name: OSX",
+			"m_Name: Windows",
+			"m_Name: Win",
+			"m_Name: OSX",
+			"",
+			"test.",
+			"ChunkAllocator",
+			"RedBlackTreeVerifier<T>::",
+			";",
+			"RedBlackTreeVerifier::",
+			"",
+			"printTree",
+			"",
+			": public Command",
+			"public Command",
+			"getLeftChild"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								264,
+								264
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Mandar copia del telegrama renuncia",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 60.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"wyrm",
+				"Wyrm.cpp"
+			],
+			[
+				"wyr",
+				"Wyrm.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true
+}
