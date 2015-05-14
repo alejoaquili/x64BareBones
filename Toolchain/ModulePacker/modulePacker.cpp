@@ -86,7 +86,7 @@ int main(int argc, char ** argv) {
 	Parameters parameters(argc, argv);
 
 	if (parameters.input.size() < 1) {
-		cout << "Wyrm Kernel Packer v0.1" << endl;
+		cout << "x64BareBones Module Packer v0.1" << endl;
 		cout << "usage: <kernel binary> <user binary0> ... <user binaryN> [-o output]" << endl;
 		return 1;
 	}
