@@ -28,4 +28,4 @@ From the x64BareBones project directory run:
 
 
 Author: Rodrigo Rearden (RowDaBoat)
-Cooperator: Augusto Nizzo McIntosh
+Colavorator: Augusto Nizzo McIntosh
