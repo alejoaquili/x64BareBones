@@ -5,7 +5,7 @@ The final goal of the project is to provide an entry point for a kernel and the 
 Environment setup:
 1- Install the following packages before building the Toolchain and Kernel:
 
-nasm qemu gcc-4.8 g++-4.8 make
+nasm qemu gcc make
 
 2- Build the Toolchain
 
@@ -28,3 +28,4 @@ From the x64BareBones project directory run:
 
 
 Author: Rodrigo Rearden (RowDaBoat)
+Cooperator: Augusto Nizzo McIntosh
