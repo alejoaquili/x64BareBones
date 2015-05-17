@@ -1,10 +1,10 @@
 MP=mp.bin
-SOURCES=$(wildcard *.cpp)
+SOURCES=$(wildcard *.c)
 
 all: $(MP)
 
 $(MP): $(SOURCES)
-	g++ $(SOURCES) -o $(MP)
+	gcc $(SOURCES) -o $(MP)
 
 clean:
 	rm -rf $(MP)

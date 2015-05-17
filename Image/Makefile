@@ -1,5 +1,5 @@
 BOOTLOADER_PATH=../Bootloader
-BMFS=$(BOOTLOADER_PATH)/BMFS/bmfs
+BMFS=$(BOOTLOADER_PATH)/BMFS/bmfs.bin
 MBR=$(BOOTLOADER_PATH)/Pure64/bmfs_mbr.sys
 MP=../Toolchain/ModulePacker/mp.bin
 PURE64=$(BOOTLOADER_PATH)/Pure64/pure64.sys
@@ -19,7 +19,7 @@ $(KERNEL):
 	cd ../Kernel; make
 
 $(PACKEDKERNEL): $(KERNEL) $(USERLAND)
-	$(MP) $(KERNEL) $(USERLAND) -o $(PACKEDKERNEL)
+	$(MP) $(KERNEL) $(USERLAND)
 
 $(IMG): $(BMFS) $(MBR) $(PURE64) $(PACKEDKERNEL)
 	$(BMFS) $(IMG) initialize $(IMGSIZE) $(MBR) $(PURE64) $(PACKEDKERNEL) 
