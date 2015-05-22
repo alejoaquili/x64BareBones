@@ -32,7 +32,7 @@ int buildImage(array_t fileArray) {
 	FILE *target;
 
 	if((target = fopen(OUTPUT_FILE, "w")) == NULL) {
-		LOG("Can't create target file\n", "");
+		printf("Can't create target file\n");
 		return FALSE;
 	}
 
@@ -68,7 +68,7 @@ int checkFiles(array_t fileArray) {
 	int i = 0;
 	for(; i < fileArray.length ; i++) {
 		if(access(fileArray.array[i], R_OK)) {
-			LOG("Can't open file: %s\n", fileArray.array[i]);
+			printf("Can't open file: %s\n", fileArray.array[i]);
 			return FALSE;
 		}
 	}

@@ -1,8 +1,6 @@
 #ifndef _MODULE_PACKER_H_
 #define _MODULE_PACKER_H_
 
-#define LOG(_fmt, ...) fprintf(stderr, _fmt, __VA_ARGS__ )
-
 #define FALSE 0
 #define TRUE !FALSE
 
