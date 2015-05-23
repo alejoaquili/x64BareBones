@@ -86,4 +86,5 @@ A copy of the E820 System Memory Map is stored at memory address `0x000000000000
 <tr><td>Length</td><td>64-bit</td><td>The length of memory for this record</td></tr>
 <tr><td>Memory Type</td><td>32-bit</td><td>Type 1 is usable memory, Type 2 is not usable</td></tr>
 </table>
+
 For more information on the E820 Memory Map: <a href="http://wiki.osdev.org/Detecting_Memory_%28x86%29#BIOS_Function:_INT_0x15.2C_EAX_.3D_0xE820">OSDev wiki on E820</a><p />
