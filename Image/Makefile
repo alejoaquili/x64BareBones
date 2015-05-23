@@ -19,7 +19,7 @@ $(KERNEL):
 	cd ../Kernel; make
 
 $(PACKEDKERNEL): $(KERNEL) $(USERLAND)
-	$(MP) $(KERNEL) $(USERLAND)
+	$(MP) $(KERNEL) $(USERLAND) -o $(PACKEDKERNEL)
 
 $(IMG): $(BMFS) $(MBR) $(PURE64) $(PACKEDKERNEL)
 	$(BMFS) $(IMG) initialize $(IMGSIZE) $(MBR) $(PURE64) $(PACKEDKERNEL) 
