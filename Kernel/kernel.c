@@ -18,6 +18,7 @@ static void * const sampleDataModuleAddress = (void*)0x500000;
 
 typedef int (*EntryPoint)();
 
+
 void clearBSS(void * bssAddress, uint64_t bssSize)
 {
 	memset(bssAddress, 0, bssSize);
@@ -34,8 +35,13 @@ void * getStackBase()
 
 void * initializeKernelBinary()
 {
+	char buffer[10];
+
 	ncPrint("[x64BareBones]");
 	ncNewline();
+
+	ncPrint("CPU Vendor:");
+	ncPrint(cpuVendor(buffer));
 	ncNewline();
 
 	ncPrint("[Loading modules]");
