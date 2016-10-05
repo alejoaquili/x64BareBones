@@ -54,11 +54,12 @@ Pure64 stores an information table in memory that contains various pieces of dat
 
 The Pure64 information table is located at `0x0000000000005000` and ends at `0x00000000000057FF` (2048 bytes).
 
+
 |Memory Address|Variable Size | Name | Description |
-|--------------| -----------| ------| ------|
+|--------------|--------------|-------|-------------|
 |0x5000        | 64-bits    | ACPI  | Address of the ACPI tables  |
-|0x5008       |32-bit |BSP_ID|APIC ID of the BSP|
-|0x5010| 16-bit| CPUSPEED| Speed of the CPUs in MegaHertz [MHz](http://en.wikipedia.org/wiki/Mhz#Computing)|
+|0x5008        |32-bit      |BSP_ID | APIC ID of the BSP|
+|0x5010|16-bit| CPUSPEED| Speed of the CPUs in MegaHertz [MHz](http://en.wikipedia.org/wiki/Mhz#Computing)|
 |0x5012|16-bits|CORES_ACTIVE|The number of CPU cores that were activated in the system|
 |0x5014|16-bit|CORES_DETECT|The number of CPU cores that were detected in the system|
 |0x5016 - 0x501F| | | For future use|
@@ -75,6 +76,7 @@ The Pure64 information table is located at `0x0000000000005000` and ends at `0x0
 |0x5086|16-bit|VIDEO_Y|Y resolution|
 |0x5088|8-bit|VIDEO_DEPTH|Color depth|
 |0x5100-|8-bit|APIC_ID |APIC ID's for valid CPU cores (based on CORES_ACTIVE)|
+
 
 A copy of the E820 System Memory Map is stored at memory address `0x0000000000004000`. Each E820 record is 24 bytes in length and the memory map is terminated by a blank record.
 
