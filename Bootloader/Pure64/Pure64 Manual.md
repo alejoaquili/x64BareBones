@@ -57,10 +57,10 @@ The Pure64 information table is located at `0x0000000000005000` and ends at `0x0
 
 |Memory Address|Variable Size | Name | Description |
 |--------------|--------------|-------|-------------|
-|0x5000        | 64-bits    | ACPI  | Address of the ACPI tables  |
-|0x5008        |32-bit      |BSP_ID | APIC ID of the BSP|
-|0x5010|16-bit| CPUSPEED| Speed of the CPUs in MegaHertz [MHz](http://en.wikipedia.org/wiki/Mhz#Computing)|
-|0x5012|16-bits|CORES_ACTIVE|The number of CPU cores that were activated in the system|
+|0x5000        | 64-bits      | ACPI  | Address of the ACPI tables  |
+|0x5008        |32-bit        |BSP_ID | APIC ID of the BSP|
+|0x5010        |16-bit        |CPUSPEED| Speed of the CPUs in MegaHertz [MHz](http://en.wikipedia.org/wiki/Mhz#Computing) |
+|0x5012        |16-bits       |CORES_ACTIVE |The number of CPU cores that were activated in the system|
 |0x5014|16-bit|CORES_DETECT|The number of CPU cores that were detected in the system|
 |0x5016 - 0x501F| | | For future use|
 |0x5020|32-bit|RAMAMOUNT|Amount of system RAM in Mebibytes [MiB](http://en.wikipedia.org/wiki/Mebibyte)|
