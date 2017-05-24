@@ -29,17 +29,18 @@ The ability to boot via a hard drive, USB stick, or the network
 ## Memory Map
 
 This memory map shows how physical memory looks after Pure64 is finished.
-|Start Address       | End Address | Size | Description |
+
+| Start Address       | End Address | Size | Description |
 |--------------------| -------------------|------------|-------------|
-| 0x0000000000000000 |0x0000000000000FFF | 4 KiB | IDT - 256 descriptors (each descriptor is 16 bytes)| 
+| 0x0000000000000000 | 0x0000000000000FFF | 4 KiB | IDT - 256 descriptors (each descriptor is 16 bytes)| 
 | 0x0000000000001000 | 0x0000000000001FFF| 4 KiB | GDT - 256 descriptors (each descriptor is 16 bytes)|
-|0x0000000000002000| 0x0000000000002FFF | 4 KiB | PML4 - 512 entries, first entry points to PDP at 0x3000|
-|0x0000000000003000 | 0x0000000000003FFF | 4 KiB |PDP - 512 enties|
-|0x0000000000004000 | 0x0000000000007FFF | 16 KiB |  Pure64 Data |
-|0x0000000000008000 | 0x000000000000FFFF |32 KiB | Pure64 - After the OS is loaded and running this memory is free again|
-|0x0000000000010000|0x000000000004FFFF| 256 KiB | PD - Room to map 64 GiB|
-|0x0000000000050000|0x000000000009FFFF|320 KiB| Free |
-|0x00000000000A0000|0x00000000000FFFFF|384 KiB| ROM Area| 
+| 0x0000000000002000 | 0x0000000000002FFF | 4 KiB | PML4 - 512 entries, first entry points to PDP at 0x3000|
+| 0x0000000000003000 | 0x0000000000003FFF | 4 KiB |PDP - 512 enties|
+| 0x0000000000004000 | 0x0000000000007FFF | 16 KiB |  Pure64 Data |
+| 0x0000000000008000 | 0x000000000000FFFF |32 KiB | Pure64 - After the OS is loaded and running this memory is free again|
+| 0x0000000000010000 |0x000000000004FFFF| 256 KiB | PD - Room to map 64 GiB|
+| 0x0000000000050000 |0x000000000009FFFF|320 KiB| Free |
+| 0x00000000000A0000|0x00000000000FFFFF|384 KiB| ROM Area| 
 | | | | VGA mem at 0xA0000 (128 KiB) Color text starts at 0xB8000|
 | | | | Video BIOS at 0xC0000 (64 KiB)|
 | | | | Motherboard BIOS at F0000 (64 KiB)|
